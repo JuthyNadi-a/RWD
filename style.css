@@ -86,4 +86,6 @@ h2 {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body {background: rgb(250, 199, 104);}
+    .top-desserts, .cake {grid-template-columns: repeat(3, 1fr);
+    }
   } 
